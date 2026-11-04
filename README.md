@@ -9,6 +9,11 @@ Hot-swappable bays for 3.5" and 2.5" hard drives, with per-bay power switching a
 - Per-bay power control (staggered spin-up, safe power-off).
 - Per-bay temperature sensing with fan control and over-temperature cut-off.
 
+## Design principles
+
+- **Deliverables, in order**: a backplane PCB (sized, then manufactured by a PCB fab), then a plastic enclosure around it.
+- **No simultaneous spin-up**: drives are powered one at a time, ordered by a per-bay priority. The power supply is sized for the steady-state load plus one spin-up peak, not for 10 simultaneous peaks.
+
 ## Inspiration
 
 Commercial 5-bay hot-swap SATA cages that fit three 5.25" drive slots. This project is a DIY take that scales to 10 bays and adds per-bay power and temperature management.
