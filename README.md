@@ -4,9 +4,14 @@ Hot-swappable bays for 3.5" and 2.5" hard drives, with per-bay power switching a
 
 ## Goals
 
+- 10 hot-swappable bays: 5 for 3.5" drives and 5 for 2.5" drives (HDD or SSD, SATA).
 - Mechanical bays accepting 3.5" and 2.5" drives (3D-printable or off-the-shelf frame).
 - Per-bay power control (staggered spin-up, safe power-off).
 - Per-bay temperature sensing with fan control and over-temperature cut-off.
+
+## Inspiration
+
+Commercial 5-bay hot-swap SATA cages that fit three 5.25" drive slots. This project is a DIY take that scales to 10 bays and adds per-bay power and temperature management.
 
 ## Toolchain
 
