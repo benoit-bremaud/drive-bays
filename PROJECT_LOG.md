@@ -6,3 +6,4 @@
 - Planned toolchain recorded: KiCad, PCB trace calculator, PSpice, FreeCAD or Fusion 360 (pending student licence). Issue #1.
 - Scope set: 10 bays (5 x 3.5" + 5 x 2.5"), DIY inspired by commercial 5-bay hot-swap SATA cages.
 - Design principles set: backplane PCB first (manufactured), plastic enclosure after; priority-ordered sequential spin-up so the PSU is not oversized for 10 simultaneous peaks.
+- Decision ADR-0001 (MCDA, 400/500): one 5-bay PCB design built twice, one module per drive format, shared controller.
